@@ -103,8 +103,11 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
+    numpy (0.2.0)
+      pycall (>= 1.2.0.beta1)
     public_suffix (4.0.6)
     puma (3.12.6)
+    pycall (1.3.1)
     rack (2.2.3)
     rack-proxy (0.6.5)
       rack
@@ -206,6 +209,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
   mysql2 (>= 0.4.4)
+  numpy
   puma (~> 3.11)
   rails (~> 6.0.0)
   sass-rails (~> 5)
